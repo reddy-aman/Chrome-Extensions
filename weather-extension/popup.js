@@ -24,7 +24,7 @@ document.getElementById('getWeather').addEventListener('click', function() {
 });
 
 function getWeather(lat, lon) {
-  const apiKey = 'd3d982449a0221bf1fbacc41dc4d494f'; // Replace with your own API key
+  const apiKey = ''; // Replace with your own API key
   const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
 
   fetch(apiUrl)
